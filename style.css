@@ -108,7 +108,7 @@ header h2 {
     display: block;
     margin-top: 6px;
     font-weight: bold;
-    color: var(--color-main);
+    color: var(--color-text);
 }
 .setting-value {
     display: block;
@@ -199,7 +199,7 @@ footer {
     max-width: 900px;
     margin: 0 auto;
     text-align: center;
-    color: var(--color-main);
+    color: var(--color-text);
 }
 @media (min-width: 600px){
     .project-card{
@@ -213,4 +213,11 @@ footer {
     .project-card{
         flex: 1 1 calc(33.3% - 14px);
     }
+}
+.mainnav a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible{
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
 }
