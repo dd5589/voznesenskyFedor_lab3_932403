@@ -203,7 +203,7 @@ footer {
 }
 @media (min-width: 600px){
     .project-card{
-        flex: 1 1 calc(50% - 10px);
+        flex: 0 1 calc(50% - 10px);
     }
     .settings-grid{
         grid-template-columns: repeat(3,1fr);
@@ -211,7 +211,7 @@ footer {
 }
 @media (min-width: 1000px){
     .project-card{
-        flex: 1 1 calc(33.3% - 14px);
+        flex: 0 1 calc(33.333% - 14px);
     }
 }
 .mainnav a:focus-visible,
