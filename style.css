@@ -8,6 +8,16 @@
     --font-main: Arial, sans-serif;
     --color-visited: #5a3d7a;
 }
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+html, body{
+    overflow-x: hidden;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
 body {
     margin: 0;
     padding: 20px;
