@@ -78,6 +78,34 @@ header h2 {
     color: var(--color-text);
     font-size: 0.9rem;
 }
+.settings-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+.setting-card {
+    padding: 20px;
+    background-color: var(--color-background);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    text-align: center;
+}
+.setting-icon {
+    display: block;
+    font-size: 2rem;
+}
+.setting-label {
+    display: block;
+    margin-top: 6px;
+    font-weight: bold;
+    color: var(--color-main);
+}
+.setting-value {
+    display: block;
+    margin-top: 4px;
+    font-size: 1.3rem;
+    color: var(--color-accent);
+}
 section {
     position: static;
     margin-bottom: 25px;
