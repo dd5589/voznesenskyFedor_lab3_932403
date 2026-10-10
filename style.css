@@ -34,11 +34,10 @@ header {
     border-radius: 12px;
     text-align: center;
 }
-header h2 {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    margin: 0;
+.subtitle {
+    margin: 4px 0 0 ;
+    color: var(--color-main);
+    font-size: 1rem;
 }
 .mainnav ul {
     display: flex;
